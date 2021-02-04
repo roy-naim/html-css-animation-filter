@@ -1,7 +1,7 @@
-* {
+/** {
   margin: 0;
   padding: 0;
-}
+}*/
 
 /* Exercise num 1 */
 .ex-1-square {
@@ -10,4 +10,13 @@
 
 .ex-1-square:hover {
   background-color: #FF0000; /*red*/
+}
+
+/* Exercise num 2 */
+.ex-2-square {
+  transition: width 2s;
+}
+
+.ex-2-square:active {
+  width: 100%;
 }
