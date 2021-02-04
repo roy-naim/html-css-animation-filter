@@ -29,3 +29,12 @@
 .ex-3-square:hover {
   border-radius: 50%;
 }
+
+/* Exercise num 4 */
+.ex-4-square {
+  transition: 3s;
+}
+
+.ex-4-square:hover {
+  opacity: 0;
+}
