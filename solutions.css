@@ -55,3 +55,17 @@
   width: 5px;
   height: 5px;
 }
+
+/* Exercise num 6 */
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
+
+/* Exercise num 7 */
+.ex-7-img {
+  transition: 2s;
+}
+
+.ex-7-img:hover {
+  filter: grayscale(1) blur(10px);
+}
