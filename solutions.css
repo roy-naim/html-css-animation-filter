@@ -122,3 +122,18 @@
       transform: rotate(0);
     }
 }
+
+/* Exercise num 12 */
+.ex-12-button:hover {
+  animation: half-move 1s linear;
+}
+
+@keyframes half-move {
+  0% {
+    transform: rotateX(0);
+  }
+
+  20% {
+    transform: rotateX(45deg);
+  }
+}
