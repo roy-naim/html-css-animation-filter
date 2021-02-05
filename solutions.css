@@ -70,7 +70,7 @@
   filter: grayscale(1) blur(10px);
 }
 
-/* Exercise 8 */
+/* Exercise num 8 */
 .ex-8-img {
   transition: 2s;
 }
@@ -80,7 +80,7 @@
   filter: sepia(1) invert(1);
 }
 
-/* Exercise 9 */
+/* Exercise num 9 */
 .ex-9-img {
   transition: 1s;
 }
@@ -89,4 +89,36 @@
   border-radius: 50px;
   filter: sepia(1) blur(5px);
   transform: scale(1.5);
+}
+
+/* Exercise num 10 */
+.ex-10-icon {
+  animation: prova linear infinite;
+  animation-duration: 1s;
+}
+
+@keyframes prova {
+  0% {
+      transform: rotate(2turn);
+    }
+}
+
+/* Exercise num 11 */
+.ex-11-icon:hover {
+  animation: prova-1 1s linear;
+}
+
+
+@keyframes prova-1 {
+  0% {
+      transform: rotate(0);
+    }
+
+  80% {
+      transform: rotate(300deg);
+    }
+
+  100% {
+      transform: rotate(0);
+    }
 }
