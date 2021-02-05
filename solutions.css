@@ -38,3 +38,20 @@
 .ex-4-square:hover {
   opacity: 0;
 }
+
+/* Exercise num 5 */
+.ex-5-square {
+  transition: width 1s, height 1s;
+}
+
+.ex-5-square:hover {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.ex-5-square:active {
+  margin: 20px;
+  width: 5px;
+  height: 5px;
+}
